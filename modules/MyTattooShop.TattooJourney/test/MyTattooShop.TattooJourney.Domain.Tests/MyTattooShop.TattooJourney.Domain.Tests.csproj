@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop.TattooJourney</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MyTattooShop.TattooJourney.Domain\MyTattooShop.TattooJourney.Domain.csproj" />
+    <ProjectReference Include="..\MyTattooShop.TattooJourney.TestBase\MyTattooShop.TattooJourney.TestBase.csproj" />
+  </ItemGroup>
+
+
+</Project>

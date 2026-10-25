@@ -1,0 +1,55 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "dev-app": {
+      "projectType": "application",
+      "root": "projects/dev-app",
+      "sourceRoot": "projects/dev-app/src"
+    },
+    "tattoo-journey": {
+      "projectType": "library",
+      "root": "projects/tattoo-journey",
+      "sourceRoot": "projects/tattoo-journey/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "options": {
+            "project": "projects/tattoo-journey/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/tattoo-journey/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/tattoo-journey/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/tattoo-journey/tsconfig.spec.json",
+            "buildTarget": "projects/tattoo-journey:build",
+            "runner": "vitest"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/tattoo-journey/**/*.ts",
+              "projects/tattoo-journey/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

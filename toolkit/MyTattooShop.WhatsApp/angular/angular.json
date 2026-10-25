@@ -1,0 +1,55 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "dev-app": {
+      "projectType": "application",
+      "root": "projects/dev-app",
+      "sourceRoot": "projects/dev-app/src"
+    },
+    "whats-app": {
+      "projectType": "library",
+      "root": "projects/whats-app",
+      "sourceRoot": "projects/whats-app/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "options": {
+            "project": "projects/whats-app/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/whats-app/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/whats-app/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/whats-app/tsconfig.spec.json",
+            "buildTarget": "projects/whats-app:build",
+            "runner": "vitest"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/whats-app/**/*.ts",
+              "projects/whats-app/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

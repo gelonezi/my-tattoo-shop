@@ -1,0 +1,55 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "dev-app": {
+      "projectType": "application",
+      "root": "projects/dev-app",
+      "sourceRoot": "projects/dev-app/src"
+    },
+    "social-engagement": {
+      "projectType": "library",
+      "root": "projects/social-engagement",
+      "sourceRoot": "projects/social-engagement/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "options": {
+            "project": "projects/social-engagement/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/social-engagement/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/social-engagement/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/social-engagement/tsconfig.spec.json",
+            "buildTarget": "projects/social-engagement:build",
+            "runner": "vitest"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/social-engagement/**/*.ts",
+              "projects/social-engagement/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

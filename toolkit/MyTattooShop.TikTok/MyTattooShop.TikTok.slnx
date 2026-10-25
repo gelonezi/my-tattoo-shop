@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/MyTattooShop.TikTok.Domain.Shared/MyTattooShop.TikTok.Domain.Shared.csproj" />
+        <Project Path="src/MyTattooShop.TikTok.Domain/MyTattooShop.TikTok.Domain.csproj" />
+        <Project Path="src/MyTattooShop.TikTok.Application.Contracts/MyTattooShop.TikTok.Application.Contracts.csproj" />
+        <Project Path="src/MyTattooShop.TikTok.Application/MyTattooShop.TikTok.Application.csproj" />
+        <Project Path="src/MyTattooShop.TikTok.EntityFrameworkCore/MyTattooShop.TikTok.EntityFrameworkCore.csproj" />
+        <Project Path="src/MyTattooShop.TikTok.HttpApi/MyTattooShop.TikTok.HttpApi.csproj" />
+        <Project Path="src/MyTattooShop.TikTok.HttpApi.Client/MyTattooShop.TikTok.HttpApi.Client.csproj" />
+        <Project Path="src/MyTattooShop.TikTok.Installer/MyTattooShop.TikTok.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/MyTattooShop.TikTok.TestBase/MyTattooShop.TikTok.TestBase.csproj" />
+        <Project Path="test/MyTattooShop.TikTok.EntityFrameworkCore.Tests/MyTattooShop.TikTok.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MyTattooShop.TikTok.Domain.Tests/MyTattooShop.TikTok.Domain.Tests.csproj" />
+        <Project Path="test/MyTattooShop.TikTok.Application.Tests/MyTattooShop.TikTok.Application.Tests.csproj" />
+    </Folder>
+</Solution>

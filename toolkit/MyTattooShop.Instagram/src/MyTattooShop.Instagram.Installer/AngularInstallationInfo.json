@@ -1,0 +1,46 @@
+﻿{
+  "packages":[
+    {
+      "appRoutingModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "INSTAGRAM_ROUTES"
+            ],
+            "namespace": "@my-tattoo-shop/instagram"
+          } 
+        ],
+        "routes":[
+          "{ path: 'instagram', children: INSTAGRAM_ROUTES, canActivate: [authGuard] }"
+        ]
+      },
+      "appModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "provideInstagram"
+            ],
+            "namespace": "@my-tattoo-shop/instagram/config"
+          }
+        ],
+        "providerNames":[
+          "provideInstagram()"
+        ]
+      },
+      "tsJsonPathRecordConfigurations":[
+        {
+          "name": "@my-tattoo-shop/instagram",
+          "paths": [
+            "angular/projects/instagram/src/public-api.ts"
+          ]
+        },
+        {
+          "name": "@my-tattoo-shop/instagram/config",
+          "paths": [
+            "angular/projects/instagram/config/src/public-api.ts"
+          ]
+        }
+      ]
+    }
+  ]
+}

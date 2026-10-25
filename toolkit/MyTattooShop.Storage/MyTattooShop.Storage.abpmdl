@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.Storage.Domain": {
+      "path": "src/MyTattooShop.Storage.Domain/MyTattooShop.Storage.Domain.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Storage.Application.Contracts": {
+      "path": "src/MyTattooShop.Storage.Application.Contracts/MyTattooShop.Storage.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Storage.Application": {
+      "path": "src/MyTattooShop.Storage.Application/MyTattooShop.Storage.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Storage.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.Storage.EntityFrameworkCore/MyTattooShop.Storage.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Storage.HttpApi": {
+      "path": "src/MyTattooShop.Storage.HttpApi/MyTattooShop.Storage.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Storage.HttpApi.Client": {
+      "path": "src/MyTattooShop.Storage.HttpApi.Client/MyTattooShop.Storage.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Storage.TestBase": {
+      "path": "test/MyTattooShop.Storage.TestBase/MyTattooShop.Storage.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Storage.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.Storage.EntityFrameworkCore.Tests/MyTattooShop.Storage.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Storage.Domain.Tests": {
+      "path": "test/MyTattooShop.Storage.Domain.Tests/MyTattooShop.Storage.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Storage.Application.Tests": {
+      "path": "test/MyTattooShop.Storage.Application.Tests/MyTattooShop.Storage.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Storage.Domain.Shared": {
+      "path": "src/MyTattooShop.Storage.Domain.Shared/MyTattooShop.Storage.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Storage.Installer": {
+       "path": "src/MyTattooShop.Storage.Installer/MyTattooShop.Storage.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

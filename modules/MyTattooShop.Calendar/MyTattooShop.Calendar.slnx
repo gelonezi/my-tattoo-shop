@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/MyTattooShop.Calendar.Domain.Shared/MyTattooShop.Calendar.Domain.Shared.csproj" />
+        <Project Path="src/MyTattooShop.Calendar.Domain/MyTattooShop.Calendar.Domain.csproj" />
+        <Project Path="src/MyTattooShop.Calendar.Application.Contracts/MyTattooShop.Calendar.Application.Contracts.csproj" />
+        <Project Path="src/MyTattooShop.Calendar.Application/MyTattooShop.Calendar.Application.csproj" />
+        <Project Path="src/MyTattooShop.Calendar.EntityFrameworkCore/MyTattooShop.Calendar.EntityFrameworkCore.csproj" />
+        <Project Path="src/MyTattooShop.Calendar.HttpApi/MyTattooShop.Calendar.HttpApi.csproj" />
+        <Project Path="src/MyTattooShop.Calendar.HttpApi.Client/MyTattooShop.Calendar.HttpApi.Client.csproj" />
+        <Project Path="src/MyTattooShop.Calendar.Installer/MyTattooShop.Calendar.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/MyTattooShop.Calendar.TestBase/MyTattooShop.Calendar.TestBase.csproj" />
+        <Project Path="test/MyTattooShop.Calendar.EntityFrameworkCore.Tests/MyTattooShop.Calendar.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MyTattooShop.Calendar.Domain.Tests/MyTattooShop.Calendar.Domain.Tests.csproj" />
+        <Project Path="test/MyTattooShop.Calendar.Application.Tests/MyTattooShop.Calendar.Application.Tests.csproj" />
+    </Folder>
+</Solution>

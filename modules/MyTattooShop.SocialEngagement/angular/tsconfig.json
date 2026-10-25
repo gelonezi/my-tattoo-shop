@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/social-engagement": ["./projects/social-engagement/src/public-api.ts"],
+      "@my-tattoo-shop/social-engagement/config": [
+        "./projects/social-engagement/config/src/public-api.ts"
+      ]
+    }
+  }
+}

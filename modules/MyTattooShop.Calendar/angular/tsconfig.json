@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/calendar": ["./projects/calendar/src/public-api.ts"],
+      "@my-tattoo-shop/calendar/config": [
+        "./projects/calendar/config/src/public-api.ts"
+      ]
+    }
+  }
+}

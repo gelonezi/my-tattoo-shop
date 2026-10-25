@@ -1,0 +1,55 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "dev-app": {
+      "projectType": "application",
+      "root": "projects/dev-app",
+      "sourceRoot": "projects/dev-app/src"
+    },
+    "tik-tok": {
+      "projectType": "library",
+      "root": "projects/tik-tok",
+      "sourceRoot": "projects/tik-tok/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "options": {
+            "project": "projects/tik-tok/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/tik-tok/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/tik-tok/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/tik-tok/tsconfig.spec.json",
+            "buildTarget": "projects/tik-tok:build",
+            "runner": "vitest"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/tik-tok/**/*.ts",
+              "projects/tik-tok/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

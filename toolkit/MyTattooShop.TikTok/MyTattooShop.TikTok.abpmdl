@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.TikTok.Domain": {
+      "path": "src/MyTattooShop.TikTok.Domain/MyTattooShop.TikTok.Domain.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TikTok.Application.Contracts": {
+      "path": "src/MyTattooShop.TikTok.Application.Contracts/MyTattooShop.TikTok.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TikTok.Application": {
+      "path": "src/MyTattooShop.TikTok.Application/MyTattooShop.TikTok.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TikTok.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.TikTok.EntityFrameworkCore/MyTattooShop.TikTok.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TikTok.HttpApi": {
+      "path": "src/MyTattooShop.TikTok.HttpApi/MyTattooShop.TikTok.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TikTok.HttpApi.Client": {
+      "path": "src/MyTattooShop.TikTok.HttpApi.Client/MyTattooShop.TikTok.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TikTok.TestBase": {
+      "path": "test/MyTattooShop.TikTok.TestBase/MyTattooShop.TikTok.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.TikTok.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.TikTok.EntityFrameworkCore.Tests/MyTattooShop.TikTok.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.TikTok.Domain.Tests": {
+      "path": "test/MyTattooShop.TikTok.Domain.Tests/MyTattooShop.TikTok.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.TikTok.Application.Tests": {
+      "path": "test/MyTattooShop.TikTok.Application.Tests/MyTattooShop.TikTok.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.TikTok.Domain.Shared": {
+      "path": "src/MyTattooShop.TikTok.Domain.Shared/MyTattooShop.TikTok.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TikTok.Installer": {
+       "path": "src/MyTattooShop.TikTok.Installer/MyTattooShop.TikTok.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

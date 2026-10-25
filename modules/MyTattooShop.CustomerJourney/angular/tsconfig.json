@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/customer-journey": ["./projects/customer-journey/src/public-api.ts"],
+      "@my-tattoo-shop/customer-journey/config": [
+        "./projects/customer-journey/config/src/public-api.ts"
+      ]
+    }
+  }
+}

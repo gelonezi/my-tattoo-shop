@@ -1,0 +1,46 @@
+﻿{
+  "packages":[
+    {
+      "appRoutingModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "WHATS_APP_ROUTES"
+            ],
+            "namespace": "@my-tattoo-shop/whats-app"
+          } 
+        ],
+        "routes":[
+          "{ path: 'whats-app', children: WHATS_APP_ROUTES, canActivate: [authGuard] }"
+        ]
+      },
+      "appModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "provideWhatsApp"
+            ],
+            "namespace": "@my-tattoo-shop/whats-app/config"
+          }
+        ],
+        "providerNames":[
+          "provideWhatsApp()"
+        ]
+      },
+      "tsJsonPathRecordConfigurations":[
+        {
+          "name": "@my-tattoo-shop/whats-app",
+          "paths": [
+            "angular/projects/whats-app/src/public-api.ts"
+          ]
+        },
+        {
+          "name": "@my-tattoo-shop/whats-app/config",
+          "paths": [
+            "angular/projects/whats-app/config/src/public-api.ts"
+          ]
+        }
+      ]
+    }
+  ]
+}

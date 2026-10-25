@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.WhatsApp.Domain": {
+      "path": "src/MyTattooShop.WhatsApp.Domain/MyTattooShop.WhatsApp.Domain.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.WhatsApp.Application.Contracts": {
+      "path": "src/MyTattooShop.WhatsApp.Application.Contracts/MyTattooShop.WhatsApp.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.WhatsApp.Application": {
+      "path": "src/MyTattooShop.WhatsApp.Application/MyTattooShop.WhatsApp.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.WhatsApp.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.WhatsApp.EntityFrameworkCore/MyTattooShop.WhatsApp.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.WhatsApp.HttpApi": {
+      "path": "src/MyTattooShop.WhatsApp.HttpApi/MyTattooShop.WhatsApp.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.WhatsApp.HttpApi.Client": {
+      "path": "src/MyTattooShop.WhatsApp.HttpApi.Client/MyTattooShop.WhatsApp.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.WhatsApp.TestBase": {
+      "path": "test/MyTattooShop.WhatsApp.TestBase/MyTattooShop.WhatsApp.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.WhatsApp.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.WhatsApp.EntityFrameworkCore.Tests/MyTattooShop.WhatsApp.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.WhatsApp.Domain.Tests": {
+      "path": "test/MyTattooShop.WhatsApp.Domain.Tests/MyTattooShop.WhatsApp.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.WhatsApp.Application.Tests": {
+      "path": "test/MyTattooShop.WhatsApp.Application.Tests/MyTattooShop.WhatsApp.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.WhatsApp.Domain.Shared": {
+      "path": "src/MyTattooShop.WhatsApp.Domain.Shared/MyTattooShop.WhatsApp.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.WhatsApp.Installer": {
+       "path": "src/MyTattooShop.WhatsApp.Installer/MyTattooShop.WhatsApp.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

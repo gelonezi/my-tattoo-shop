@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop.WhatsApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application.Contracts" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Authorization" Version="10.7.0" />
+    <ProjectReference Include="..\MyTattooShop.WhatsApp.Domain.Shared\MyTattooShop.WhatsApp.Domain.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

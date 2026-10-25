@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/MyTattooShop.CustomerChat.Domain.Shared/MyTattooShop.CustomerChat.Domain.Shared.csproj" />
+        <Project Path="src/MyTattooShop.CustomerChat.Domain/MyTattooShop.CustomerChat.Domain.csproj" />
+        <Project Path="src/MyTattooShop.CustomerChat.Application.Contracts/MyTattooShop.CustomerChat.Application.Contracts.csproj" />
+        <Project Path="src/MyTattooShop.CustomerChat.Application/MyTattooShop.CustomerChat.Application.csproj" />
+        <Project Path="src/MyTattooShop.CustomerChat.EntityFrameworkCore/MyTattooShop.CustomerChat.EntityFrameworkCore.csproj" />
+        <Project Path="src/MyTattooShop.CustomerChat.HttpApi/MyTattooShop.CustomerChat.HttpApi.csproj" />
+        <Project Path="src/MyTattooShop.CustomerChat.HttpApi.Client/MyTattooShop.CustomerChat.HttpApi.Client.csproj" />
+        <Project Path="src/MyTattooShop.CustomerChat.Installer/MyTattooShop.CustomerChat.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/MyTattooShop.CustomerChat.TestBase/MyTattooShop.CustomerChat.TestBase.csproj" />
+        <Project Path="test/MyTattooShop.CustomerChat.EntityFrameworkCore.Tests/MyTattooShop.CustomerChat.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MyTattooShop.CustomerChat.Domain.Tests/MyTattooShop.CustomerChat.Domain.Tests.csproj" />
+        <Project Path="test/MyTattooShop.CustomerChat.Application.Tests/MyTattooShop.CustomerChat.Application.Tests.csproj" />
+    </Folder>
+</Solution>

@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/customer-chat": ["./projects/customer-chat/src/public-api.ts"],
+      "@my-tattoo-shop/customer-chat/config": [
+        "./projects/customer-chat/config/src/public-api.ts"
+      ]
+    }
+  }
+}

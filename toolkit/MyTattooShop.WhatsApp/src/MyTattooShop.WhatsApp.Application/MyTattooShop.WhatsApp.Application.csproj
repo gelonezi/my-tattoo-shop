@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop.WhatsApp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Mapperly" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="10.7.0" />
+    <ProjectReference Include="..\MyTattooShop.WhatsApp.Application.Contracts\MyTattooShop.WhatsApp.Application.Contracts.csproj" />
+    <ProjectReference Include="..\MyTattooShop.WhatsApp.Domain\MyTattooShop.WhatsApp.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

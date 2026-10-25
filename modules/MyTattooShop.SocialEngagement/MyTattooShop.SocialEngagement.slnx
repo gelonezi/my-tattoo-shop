@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/MyTattooShop.SocialEngagement.Domain.Shared/MyTattooShop.SocialEngagement.Domain.Shared.csproj" />
+        <Project Path="src/MyTattooShop.SocialEngagement.Domain/MyTattooShop.SocialEngagement.Domain.csproj" />
+        <Project Path="src/MyTattooShop.SocialEngagement.Application.Contracts/MyTattooShop.SocialEngagement.Application.Contracts.csproj" />
+        <Project Path="src/MyTattooShop.SocialEngagement.Application/MyTattooShop.SocialEngagement.Application.csproj" />
+        <Project Path="src/MyTattooShop.SocialEngagement.EntityFrameworkCore/MyTattooShop.SocialEngagement.EntityFrameworkCore.csproj" />
+        <Project Path="src/MyTattooShop.SocialEngagement.HttpApi/MyTattooShop.SocialEngagement.HttpApi.csproj" />
+        <Project Path="src/MyTattooShop.SocialEngagement.HttpApi.Client/MyTattooShop.SocialEngagement.HttpApi.Client.csproj" />
+        <Project Path="src/MyTattooShop.SocialEngagement.Installer/MyTattooShop.SocialEngagement.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/MyTattooShop.SocialEngagement.TestBase/MyTattooShop.SocialEngagement.TestBase.csproj" />
+        <Project Path="test/MyTattooShop.SocialEngagement.EntityFrameworkCore.Tests/MyTattooShop.SocialEngagement.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MyTattooShop.SocialEngagement.Domain.Tests/MyTattooShop.SocialEngagement.Domain.Tests.csproj" />
+        <Project Path="test/MyTattooShop.SocialEngagement.Application.Tests/MyTattooShop.SocialEngagement.Application.Tests.csproj" />
+    </Folder>
+</Solution>

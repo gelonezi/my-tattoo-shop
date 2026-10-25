@@ -1,0 +1,114 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/25/2026 19:53:45 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.Application": {
+      "path": "src/MyTattooShop.Application/MyTattooShop.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Application.Tests": {
+      "path": "test/MyTattooShop.Application.Tests/MyTattooShop.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Domain.Shared": {
+      "path": "src/MyTattooShop.Domain.Shared/MyTattooShop.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Application.Contracts": {
+      "path": "src/MyTattooShop.Application.Contracts/MyTattooShop.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.HttpApi": {
+      "path": "src/MyTattooShop.HttpApi/MyTattooShop.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.HttpApi.Client": {
+      "path": "src/MyTattooShop.HttpApi.Client/MyTattooShop.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.EntityFrameworkCore.Tests/MyTattooShop.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.EntityFrameworkCore/MyTattooShop.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.TestBase": {
+      "path": "test/MyTattooShop.TestBase/MyTattooShop.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Domain.Tests": {
+      "path": "test/MyTattooShop.Domain.Tests/MyTattooShop.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/MyTattooShop.HttpApi.Client.ConsoleTestApp/MyTattooShop.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.DbMigrator": {
+      "path": "src/MyTattooShop.DbMigrator/MyTattooShop.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.HttpApi.Host": {
+      "path": "src/MyTattooShop.HttpApi.Host/MyTattooShop.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Domain": {
+      "path": "src/MyTattooShop.Domain/MyTattooShop.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

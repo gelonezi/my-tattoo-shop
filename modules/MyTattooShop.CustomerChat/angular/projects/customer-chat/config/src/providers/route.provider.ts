@@ -1,0 +1,33 @@
+import { eLayoutType, RoutesService } from '@abp/ng.core';
+import {
+  EnvironmentProviders,
+  inject,
+  makeEnvironmentProviders,
+  provideAppInitializer,
+} from '@angular/core';
+import { eCustomerChatRouteNames } from '../enums/route-names';
+
+export const CUSTOMER_CHAT_ROUTE_PROVIDERS = [
+  provideAppInitializer(() => {
+    configureRoutes();
+  }),
+];
+
+export function configureRoutes() {
+  const routesService = inject(RoutesService);
+  routesService.add([
+    {
+      path: '/customer-chat',
+      name: eCustomerChatRouteNames.CustomerChat,
+      iconClass: 'fas fa-book',
+      layout: eLayoutType.application,
+      order: 3,
+    },
+  ]);
+}
+
+const CUSTOMER_CHAT_PROVIDERS: EnvironmentProviders[] = [...CUSTOMER_CHAT_ROUTE_PROVIDERS];
+
+export function provideCustomerChat() {
+  return makeEnvironmentProviders(CUSTOMER_CHAT_PROVIDERS);
+}

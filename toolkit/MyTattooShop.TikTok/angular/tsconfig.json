@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/tik-tok": ["./projects/tik-tok/src/public-api.ts"],
+      "@my-tattoo-shop/tik-tok/config": [
+        "./projects/tik-tok/config/src/public-api.ts"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyTattooShop.Domain.Shared\MyTattooShop.Domain.Shared.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/src/MyTattooShop.Catalog.Domain/MyTattooShop.Catalog.Domain.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/src/MyTattooShop.Calendar.Domain/MyTattooShop.Calendar.Domain.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/src/MyTattooShop.CustomerChat.Domain/MyTattooShop.CustomerChat.Domain.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/src/MyTattooShop.CustomerJourney.Domain/MyTattooShop.CustomerJourney.Domain.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/src/MyTattooShop.TattooJourney.Domain/MyTattooShop.TattooJourney.Domain.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/src/MyTattooShop.Instagram.Domain/MyTattooShop.Instagram.Domain.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/src/MyTattooShop.WhatsApp.Domain/MyTattooShop.WhatsApp.Domain.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/src/MyTattooShop.TikTok.Domain/MyTattooShop.TikTok.Domain.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/src/MyTattooShop.SocialEngagement.Domain/MyTattooShop.SocialEngagement.Domain.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/src/MyTattooShop.Storage.Domain/MyTattooShop.Storage.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Emailing" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Caching" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Identity" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.OpenIddict" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.BlobStoring.Database.Domain" Version="10.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.OpenIddict.Domain" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Identity.Domain" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Domain" Version="10.7.0" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop.CustomerJourney</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="10.7.0"/>
+    <ProjectReference Include="..\MyTattooShop.CustomerJourney.Application.Contracts\MyTattooShop.CustomerJourney.Application.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

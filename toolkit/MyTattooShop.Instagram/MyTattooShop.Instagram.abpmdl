@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.Instagram.Domain": {
+      "path": "src/MyTattooShop.Instagram.Domain/MyTattooShop.Instagram.Domain.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Instagram.Application.Contracts": {
+      "path": "src/MyTattooShop.Instagram.Application.Contracts/MyTattooShop.Instagram.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Instagram.Application": {
+      "path": "src/MyTattooShop.Instagram.Application/MyTattooShop.Instagram.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Instagram.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.Instagram.EntityFrameworkCore/MyTattooShop.Instagram.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Instagram.HttpApi": {
+      "path": "src/MyTattooShop.Instagram.HttpApi/MyTattooShop.Instagram.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Instagram.HttpApi.Client": {
+      "path": "src/MyTattooShop.Instagram.HttpApi.Client/MyTattooShop.Instagram.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Instagram.TestBase": {
+      "path": "test/MyTattooShop.Instagram.TestBase/MyTattooShop.Instagram.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Instagram.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.Instagram.EntityFrameworkCore.Tests/MyTattooShop.Instagram.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Instagram.Domain.Tests": {
+      "path": "test/MyTattooShop.Instagram.Domain.Tests/MyTattooShop.Instagram.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Instagram.Application.Tests": {
+      "path": "test/MyTattooShop.Instagram.Application.Tests/MyTattooShop.Instagram.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Instagram.Domain.Shared": {
+      "path": "src/MyTattooShop.Instagram.Domain.Shared/MyTattooShop.Instagram.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Instagram.Installer": {
+       "path": "src/MyTattooShop.Instagram.Installer/MyTattooShop.Instagram.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

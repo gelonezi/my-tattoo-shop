@@ -1,0 +1,46 @@
+﻿{
+  "packages":[
+    {
+      "appRoutingModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "SOCIAL_ENGAGEMENT_ROUTES"
+            ],
+            "namespace": "@my-tattoo-shop/social-engagement"
+          } 
+        ],
+        "routes":[
+          "{ path: 'social-engagement', children: SOCIAL_ENGAGEMENT_ROUTES, canActivate: [authGuard] }"
+        ]
+      },
+      "appModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "provideSocialEngagement"
+            ],
+            "namespace": "@my-tattoo-shop/social-engagement/config"
+          }
+        ],
+        "providerNames":[
+          "provideSocialEngagement()"
+        ]
+      },
+      "tsJsonPathRecordConfigurations":[
+        {
+          "name": "@my-tattoo-shop/social-engagement",
+          "paths": [
+            "angular/projects/social-engagement/src/public-api.ts"
+          ]
+        },
+        {
+          "name": "@my-tattoo-shop/social-engagement/config",
+          "paths": [
+            "angular/projects/social-engagement/config/src/public-api.ts"
+          ]
+        }
+      ]
+    }
+  ]
+}

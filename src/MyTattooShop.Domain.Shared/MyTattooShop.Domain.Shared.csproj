@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop</RootNamespace>
+    <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.BlobStoring.Database.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.GlobalFeatures" Version="10.7.0" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/src/MyTattooShop.Catalog.Domain.Shared/MyTattooShop.Catalog.Domain.Shared.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/src/MyTattooShop.Calendar.Domain.Shared/MyTattooShop.Calendar.Domain.Shared.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/src/MyTattooShop.CustomerChat.Domain.Shared/MyTattooShop.CustomerChat.Domain.Shared.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/src/MyTattooShop.CustomerJourney.Domain.Shared/MyTattooShop.CustomerJourney.Domain.Shared.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/src/MyTattooShop.TattooJourney.Domain.Shared/MyTattooShop.TattooJourney.Domain.Shared.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/src/MyTattooShop.Instagram.Domain.Shared/MyTattooShop.Instagram.Domain.Shared.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/src/MyTattooShop.WhatsApp.Domain.Shared/MyTattooShop.WhatsApp.Domain.Shared.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/src/MyTattooShop.TikTok.Domain.Shared/MyTattooShop.TikTok.Domain.Shared.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/src/MyTattooShop.SocialEngagement.Domain.Shared/MyTattooShop.SocialEngagement.Domain.Shared.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/src/MyTattooShop.Storage.Domain.Shared/MyTattooShop.Storage.Domain.Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.OpenIddict.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Domain.Shared" Version="10.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="10.0.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Localization\MyTattooShop\*.json" />
+    <Content Remove="Localization\MyTattooShop\*.json" />
+  </ItemGroup>
+</Project>

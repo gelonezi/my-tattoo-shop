@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.Calendar.Domain": {
+      "path": "src/MyTattooShop.Calendar.Domain/MyTattooShop.Calendar.Domain.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Calendar.Application.Contracts": {
+      "path": "src/MyTattooShop.Calendar.Application.Contracts/MyTattooShop.Calendar.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Calendar.Application": {
+      "path": "src/MyTattooShop.Calendar.Application/MyTattooShop.Calendar.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Calendar.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.Calendar.EntityFrameworkCore/MyTattooShop.Calendar.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Calendar.HttpApi": {
+      "path": "src/MyTattooShop.Calendar.HttpApi/MyTattooShop.Calendar.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Calendar.HttpApi.Client": {
+      "path": "src/MyTattooShop.Calendar.HttpApi.Client/MyTattooShop.Calendar.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Calendar.TestBase": {
+      "path": "test/MyTattooShop.Calendar.TestBase/MyTattooShop.Calendar.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Calendar.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.Calendar.EntityFrameworkCore.Tests/MyTattooShop.Calendar.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Calendar.Domain.Tests": {
+      "path": "test/MyTattooShop.Calendar.Domain.Tests/MyTattooShop.Calendar.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Calendar.Application.Tests": {
+      "path": "test/MyTattooShop.Calendar.Application.Tests/MyTattooShop.Calendar.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.Calendar.Domain.Shared": {
+      "path": "src/MyTattooShop.Calendar.Domain.Shared/MyTattooShop.Calendar.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.Calendar.Installer": {
+       "path": "src/MyTattooShop.Calendar.Installer/MyTattooShop.Calendar.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

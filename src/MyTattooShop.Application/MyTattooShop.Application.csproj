@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyTattooShop.Domain\MyTattooShop.Domain.csproj" />
+    <ProjectReference Include="..\MyTattooShop.Application.Contracts\MyTattooShop.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/src/MyTattooShop.Catalog.Application/MyTattooShop.Catalog.Application.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/src/MyTattooShop.Calendar.Application/MyTattooShop.Calendar.Application.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/src/MyTattooShop.CustomerChat.Application/MyTattooShop.CustomerChat.Application.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/src/MyTattooShop.CustomerJourney.Application/MyTattooShop.CustomerJourney.Application.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/src/MyTattooShop.TattooJourney.Application/MyTattooShop.TattooJourney.Application.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/src/MyTattooShop.Instagram.Application/MyTattooShop.Instagram.Application.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/src/MyTattooShop.WhatsApp.Application/MyTattooShop.WhatsApp.Application.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/src/MyTattooShop.TikTok.Application/MyTattooShop.TikTok.Application.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/src/MyTattooShop.SocialEngagement.Application/MyTattooShop.SocialEngagement.Application.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/src/MyTattooShop.Storage.Application/MyTattooShop.Storage.Application.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Application" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Account.Application" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Identity.Application" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Application" Version="10.7.0" />
+  </ItemGroup>
+</Project>

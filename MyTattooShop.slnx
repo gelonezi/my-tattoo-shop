@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/MyTattooShop.Domain/MyTattooShop.Domain.csproj" />
+        <Project Path="src/MyTattooShop.Application/MyTattooShop.Application.csproj" />
+        <Project Path="src/MyTattooShop.EntityFrameworkCore/MyTattooShop.EntityFrameworkCore.csproj" />
+        <Project Path="src/MyTattooShop.Domain.Shared/MyTattooShop.Domain.Shared.csproj" />
+        <Project Path="src/MyTattooShop.Application.Contracts/MyTattooShop.Application.Contracts.csproj" />
+        <Project Path="src/MyTattooShop.HttpApi/MyTattooShop.HttpApi.csproj" />
+        <Project Path="src/MyTattooShop.HttpApi.Client/MyTattooShop.HttpApi.Client.csproj" />
+        <Project Path="src/MyTattooShop.HttpApi.Host/MyTattooShop.HttpApi.Host.csproj" />
+        <Project Path="src/MyTattooShop.DbMigrator/MyTattooShop.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/MyTattooShop.Application.Tests/MyTattooShop.Application.Tests.csproj" />
+        <Project Path="test/MyTattooShop.EntityFrameworkCore.Tests/MyTattooShop.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MyTattooShop.TestBase/MyTattooShop.TestBase.csproj" />
+        <Project Path="test/MyTattooShop.Domain.Tests/MyTattooShop.Domain.Tests.csproj" />
+        <Project Path="test/MyTattooShop.HttpApi.Client.ConsoleTestApp/MyTattooShop.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

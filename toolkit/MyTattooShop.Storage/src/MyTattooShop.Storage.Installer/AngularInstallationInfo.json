@@ -1,0 +1,46 @@
+﻿{
+  "packages":[
+    {
+      "appRoutingModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "STORAGE_ROUTES"
+            ],
+            "namespace": "@my-tattoo-shop/storage"
+          } 
+        ],
+        "routes":[
+          "{ path: 'storage', children: STORAGE_ROUTES, canActivate: [authGuard] }"
+        ]
+      },
+      "appModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "provideStorage"
+            ],
+            "namespace": "@my-tattoo-shop/storage/config"
+          }
+        ],
+        "providerNames":[
+          "provideStorage()"
+        ]
+      },
+      "tsJsonPathRecordConfigurations":[
+        {
+          "name": "@my-tattoo-shop/storage",
+          "paths": [
+            "angular/projects/storage/src/public-api.ts"
+          ]
+        },
+        {
+          "name": "@my-tattoo-shop/storage/config",
+          "paths": [
+            "angular/projects/storage/config/src/public-api.ts"
+          ]
+        }
+      ]
+    }
+  ]
+}

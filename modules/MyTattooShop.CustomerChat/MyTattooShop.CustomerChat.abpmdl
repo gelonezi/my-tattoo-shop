@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.CustomerChat.Domain": {
+      "path": "src/MyTattooShop.CustomerChat.Domain/MyTattooShop.CustomerChat.Domain.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.CustomerChat.Application.Contracts": {
+      "path": "src/MyTattooShop.CustomerChat.Application.Contracts/MyTattooShop.CustomerChat.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.CustomerChat.Application": {
+      "path": "src/MyTattooShop.CustomerChat.Application/MyTattooShop.CustomerChat.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.CustomerChat.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.CustomerChat.EntityFrameworkCore/MyTattooShop.CustomerChat.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.CustomerChat.HttpApi": {
+      "path": "src/MyTattooShop.CustomerChat.HttpApi/MyTattooShop.CustomerChat.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.CustomerChat.HttpApi.Client": {
+      "path": "src/MyTattooShop.CustomerChat.HttpApi.Client/MyTattooShop.CustomerChat.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.CustomerChat.TestBase": {
+      "path": "test/MyTattooShop.CustomerChat.TestBase/MyTattooShop.CustomerChat.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.CustomerChat.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.CustomerChat.EntityFrameworkCore.Tests/MyTattooShop.CustomerChat.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.CustomerChat.Domain.Tests": {
+      "path": "test/MyTattooShop.CustomerChat.Domain.Tests/MyTattooShop.CustomerChat.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.CustomerChat.Application.Tests": {
+      "path": "test/MyTattooShop.CustomerChat.Application.Tests/MyTattooShop.CustomerChat.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.CustomerChat.Domain.Shared": {
+      "path": "src/MyTattooShop.CustomerChat.Domain.Shared/MyTattooShop.CustomerChat.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.CustomerChat.Installer": {
+       "path": "src/MyTattooShop.CustomerChat.Installer/MyTattooShop.CustomerChat.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

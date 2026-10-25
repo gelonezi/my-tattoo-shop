@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MyTattooShop.EntityFrameworkCore\MyTattooShop.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\MyTattooShop.Application.Tests\MyTattooShop.Application.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/test/MyTattooShop.Catalog.TestBase/MyTattooShop.Catalog.TestBase.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/test/MyTattooShop.Catalog.EntityFrameworkCore.Tests/MyTattooShop.Catalog.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/test/MyTattooShop.Catalog.Domain.Tests/MyTattooShop.Catalog.Domain.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/test/MyTattooShop.Catalog.Application.Tests/MyTattooShop.Catalog.Application.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/test/MyTattooShop.Calendar.TestBase/MyTattooShop.Calendar.TestBase.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/test/MyTattooShop.Calendar.EntityFrameworkCore.Tests/MyTattooShop.Calendar.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/test/MyTattooShop.Calendar.Domain.Tests/MyTattooShop.Calendar.Domain.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/test/MyTattooShop.Calendar.Application.Tests/MyTattooShop.Calendar.Application.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/test/MyTattooShop.CustomerChat.TestBase/MyTattooShop.CustomerChat.TestBase.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/test/MyTattooShop.CustomerChat.EntityFrameworkCore.Tests/MyTattooShop.CustomerChat.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/test/MyTattooShop.CustomerChat.Domain.Tests/MyTattooShop.CustomerChat.Domain.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/test/MyTattooShop.CustomerChat.Application.Tests/MyTattooShop.CustomerChat.Application.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/test/MyTattooShop.CustomerJourney.TestBase/MyTattooShop.CustomerJourney.TestBase.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/test/MyTattooShop.CustomerJourney.EntityFrameworkCore.Tests/MyTattooShop.CustomerJourney.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/test/MyTattooShop.CustomerJourney.Domain.Tests/MyTattooShop.CustomerJourney.Domain.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/test/MyTattooShop.CustomerJourney.Application.Tests/MyTattooShop.CustomerJourney.Application.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/test/MyTattooShop.TattooJourney.TestBase/MyTattooShop.TattooJourney.TestBase.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/test/MyTattooShop.TattooJourney.EntityFrameworkCore.Tests/MyTattooShop.TattooJourney.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/test/MyTattooShop.TattooJourney.Domain.Tests/MyTattooShop.TattooJourney.Domain.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/test/MyTattooShop.TattooJourney.Application.Tests/MyTattooShop.TattooJourney.Application.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/test/MyTattooShop.Instagram.TestBase/MyTattooShop.Instagram.TestBase.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/test/MyTattooShop.Instagram.EntityFrameworkCore.Tests/MyTattooShop.Instagram.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/test/MyTattooShop.Instagram.Domain.Tests/MyTattooShop.Instagram.Domain.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/test/MyTattooShop.Instagram.Application.Tests/MyTattooShop.Instagram.Application.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/test/MyTattooShop.WhatsApp.TestBase/MyTattooShop.WhatsApp.TestBase.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/test/MyTattooShop.WhatsApp.EntityFrameworkCore.Tests/MyTattooShop.WhatsApp.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/test/MyTattooShop.WhatsApp.Domain.Tests/MyTattooShop.WhatsApp.Domain.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/test/MyTattooShop.WhatsApp.Application.Tests/MyTattooShop.WhatsApp.Application.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/test/MyTattooShop.TikTok.TestBase/MyTattooShop.TikTok.TestBase.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/test/MyTattooShop.TikTok.EntityFrameworkCore.Tests/MyTattooShop.TikTok.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/test/MyTattooShop.TikTok.Domain.Tests/MyTattooShop.TikTok.Domain.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/test/MyTattooShop.TikTok.Application.Tests/MyTattooShop.TikTok.Application.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/test/MyTattooShop.SocialEngagement.TestBase/MyTattooShop.SocialEngagement.TestBase.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/test/MyTattooShop.SocialEngagement.EntityFrameworkCore.Tests/MyTattooShop.SocialEngagement.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/test/MyTattooShop.SocialEngagement.Domain.Tests/MyTattooShop.SocialEngagement.Domain.Tests.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/test/MyTattooShop.SocialEngagement.Application.Tests/MyTattooShop.SocialEngagement.Application.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/test/MyTattooShop.Storage.TestBase/MyTattooShop.Storage.TestBase.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/test/MyTattooShop.Storage.EntityFrameworkCore.Tests/MyTattooShop.Storage.EntityFrameworkCore.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/test/MyTattooShop.Storage.Domain.Tests/MyTattooShop.Storage.Domain.Tests.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/test/MyTattooShop.Storage.Application.Tests/MyTattooShop.Storage.Application.Tests.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="10.7.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+  </ItemGroup>
+</Project>

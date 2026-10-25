@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyTattooShop.Domain\MyTattooShop.Domain.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/src/MyTattooShop.Catalog.EntityFrameworkCore/MyTattooShop.Catalog.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/src/MyTattooShop.Calendar.EntityFrameworkCore/MyTattooShop.Calendar.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/src/MyTattooShop.CustomerChat.EntityFrameworkCore/MyTattooShop.CustomerChat.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/src/MyTattooShop.CustomerJourney.EntityFrameworkCore/MyTattooShop.CustomerJourney.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/src/MyTattooShop.TattooJourney.EntityFrameworkCore/MyTattooShop.TattooJourney.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/src/MyTattooShop.Instagram.EntityFrameworkCore/MyTattooShop.Instagram.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/src/MyTattooShop.WhatsApp.EntityFrameworkCore/MyTattooShop.WhatsApp.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/src/MyTattooShop.TikTok.EntityFrameworkCore/MyTattooShop.TikTok.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/src/MyTattooShop.SocialEngagement.EntityFrameworkCore/MyTattooShop.SocialEngagement.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/src/MyTattooShop.Storage.EntityFrameworkCore/MyTattooShop.Storage.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.EntityFrameworkCore" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.BlobStoring.Database.EntityFrameworkCore" Version="10.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.OpenIddict.EntityFrameworkCore" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="10.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>compile; contentFiles; build; buildMultitargeting; buildTransitive; analyzers; native</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>compile; contentFiles; build; buildMultitargeting; buildTransitive; analyzers; native</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>

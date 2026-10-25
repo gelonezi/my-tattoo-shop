@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/instagram": ["./projects/instagram/src/public-api.ts"],
+      "@my-tattoo-shop/instagram/config": [
+        "./projects/instagram/config/src/public-api.ts"
+      ]
+    }
+  }
+}

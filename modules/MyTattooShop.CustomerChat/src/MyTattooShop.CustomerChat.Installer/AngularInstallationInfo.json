@@ -1,0 +1,46 @@
+﻿{
+  "packages":[
+    {
+      "appRoutingModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "CUSTOMER_CHAT_ROUTES"
+            ],
+            "namespace": "@my-tattoo-shop/customer-chat"
+          } 
+        ],
+        "routes":[
+          "{ path: 'customer-chat', children: CUSTOMER_CHAT_ROUTES, canActivate: [authGuard] }"
+        ]
+      },
+      "appModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "provideCustomerChat"
+            ],
+            "namespace": "@my-tattoo-shop/customer-chat/config"
+          }
+        ],
+        "providerNames":[
+          "provideCustomerChat()"
+        ]
+      },
+      "tsJsonPathRecordConfigurations":[
+        {
+          "name": "@my-tattoo-shop/customer-chat",
+          "paths": [
+            "angular/projects/customer-chat/src/public-api.ts"
+          ]
+        },
+        {
+          "name": "@my-tattoo-shop/customer-chat/config",
+          "paths": [
+            "angular/projects/customer-chat/config/src/public-api.ts"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MyTattooShop.SocialEngagement.Domain": {
+      "path": "src/MyTattooShop.SocialEngagement.Domain/MyTattooShop.SocialEngagement.Domain.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.SocialEngagement.Application.Contracts": {
+      "path": "src/MyTattooShop.SocialEngagement.Application.Contracts/MyTattooShop.SocialEngagement.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.SocialEngagement.Application": {
+      "path": "src/MyTattooShop.SocialEngagement.Application/MyTattooShop.SocialEngagement.Application.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.SocialEngagement.EntityFrameworkCore": {
+      "path": "src/MyTattooShop.SocialEngagement.EntityFrameworkCore/MyTattooShop.SocialEngagement.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.SocialEngagement.HttpApi": {
+      "path": "src/MyTattooShop.SocialEngagement.HttpApi/MyTattooShop.SocialEngagement.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.SocialEngagement.HttpApi.Client": {
+      "path": "src/MyTattooShop.SocialEngagement.HttpApi.Client/MyTattooShop.SocialEngagement.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.SocialEngagement.TestBase": {
+      "path": "test/MyTattooShop.SocialEngagement.TestBase/MyTattooShop.SocialEngagement.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.SocialEngagement.EntityFrameworkCore.Tests": {
+      "path": "test/MyTattooShop.SocialEngagement.EntityFrameworkCore.Tests/MyTattooShop.SocialEngagement.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.SocialEngagement.Domain.Tests": {
+      "path": "test/MyTattooShop.SocialEngagement.Domain.Tests/MyTattooShop.SocialEngagement.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.SocialEngagement.Application.Tests": {
+      "path": "test/MyTattooShop.SocialEngagement.Application.Tests/MyTattooShop.SocialEngagement.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MyTattooShop.SocialEngagement.Domain.Shared": {
+      "path": "src/MyTattooShop.SocialEngagement.Domain.Shared/MyTattooShop.SocialEngagement.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MyTattooShop.SocialEngagement.Installer": {
+       "path": "src/MyTattooShop.SocialEngagement.Installer/MyTattooShop.SocialEngagement.Installer.abppkg",
+       "folder": "src"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+﻿{
+  "packages":[
+    {
+      "appRoutingModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "TATTOO_JOURNEY_ROUTES"
+            ],
+            "namespace": "@my-tattoo-shop/tattoo-journey"
+          } 
+        ],
+        "routes":[
+          "{ path: 'tattoo-journey', children: TATTOO_JOURNEY_ROUTES, canActivate: [authGuard] }"
+        ]
+      },
+      "appModuleConfiguration":{
+        "imports":[
+          {
+            "names":[
+              "provideTattooJourney"
+            ],
+            "namespace": "@my-tattoo-shop/tattoo-journey/config"
+          }
+        ],
+        "providerNames":[
+          "provideTattooJourney()"
+        ]
+      },
+      "tsJsonPathRecordConfigurations":[
+        {
+          "name": "@my-tattoo-shop/tattoo-journey",
+          "paths": [
+            "angular/projects/tattoo-journey/src/public-api.ts"
+          ]
+        },
+        {
+          "name": "@my-tattoo-shop/tattoo-journey/config",
+          "paths": [
+            "angular/projects/tattoo-journey/config/src/public-api.ts"
+          ]
+        }
+      ]
+    }
+  ]
+}

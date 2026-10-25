@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/storage": ["./projects/storage/src/public-api.ts"],
+      "@my-tattoo-shop/storage/config": [
+        "./projects/storage/config/src/public-api.ts"
+      ]
+    }
+  }
+}

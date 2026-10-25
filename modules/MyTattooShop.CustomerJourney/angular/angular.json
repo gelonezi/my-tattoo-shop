@@ -1,0 +1,55 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "dev-app": {
+      "projectType": "application",
+      "root": "projects/dev-app",
+      "sourceRoot": "projects/dev-app/src"
+    },
+    "customer-journey": {
+      "projectType": "library",
+      "root": "projects/customer-journey",
+      "sourceRoot": "projects/customer-journey/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "options": {
+            "project": "projects/customer-journey/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/customer-journey/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/customer-journey/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/customer-journey/tsconfig.spec.json",
+            "buildTarget": "projects/customer-journey:build",
+            "runner": "vitest"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/customer-journey/**/*.ts",
+              "projects/customer-journey/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

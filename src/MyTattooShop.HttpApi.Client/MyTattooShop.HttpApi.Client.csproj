@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MyTattooShop</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyTattooShop.Application.Contracts\MyTattooShop.Application.Contracts.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Catalog/src/MyTattooShop.Catalog.HttpApi.Client/MyTattooShop.Catalog.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.Calendar/src/MyTattooShop.Calendar.HttpApi.Client/MyTattooShop.Calendar.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerChat/src/MyTattooShop.CustomerChat.HttpApi.Client/MyTattooShop.CustomerChat.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.CustomerJourney/src/MyTattooShop.CustomerJourney.HttpApi.Client/MyTattooShop.CustomerJourney.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.TattooJourney/src/MyTattooShop.TattooJourney.HttpApi.Client/MyTattooShop.TattooJourney.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Instagram/src/MyTattooShop.Instagram.HttpApi.Client/MyTattooShop.Instagram.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.WhatsApp/src/MyTattooShop.WhatsApp.HttpApi.Client/MyTattooShop.WhatsApp.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.TikTok/src/MyTattooShop.TikTok.HttpApi.Client/MyTattooShop.TikTok.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../modules/MyTattooShop.SocialEngagement/src/MyTattooShop.SocialEngagement.HttpApi.Client/MyTattooShop.SocialEngagement.HttpApi.Client.csproj" />
+    <ProjectReference Include="../../toolkit/MyTattooShop.Storage/src/MyTattooShop.Storage.HttpApi.Client/MyTattooShop.Storage.HttpApi.Client.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi.Client" Version="10.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.HttpApi.Client" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.Account.HttpApi.Client" Version="10.7.0" />
+    <PackageReference Include="Volo.Abp.TenantManagement.HttpApi.Client" Version="10.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="**\*generate-proxy.json" />
+    <Content Remove="**\*generate-proxy.json" />
+  </ItemGroup>
+</Project>

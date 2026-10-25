@@ -1,0 +1,104 @@
+{
+  "id": "d13e25a1-e068-4ac6-9ffd-e91a198165cf",
+  "creationTime": "10/25/2026 19:53:45 +00:00",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "10.7.0",
+    "AbpStudio": "3.1.5",
+    "TargetDotnetFramework": "net10.0"
+  },
+  "modules": {
+    "MyTattooShop": {
+      "path": "MyTattooShop.abpmdl"
+    },
+    "MyTattooShop.Catalog": {
+      "path": "modules/MyTattooShop.Catalog/MyTattooShop.Catalog.abpmdl"
+    },
+    "MyTattooShop.CustomerChat": {
+      "path": "modules/MyTattooShop.CustomerChat/MyTattooShop.CustomerChat.abpmdl"
+    },
+    "MyTattooShop.CustomerJourney": {
+      "path": "modules/MyTattooShop.CustomerJourney/MyTattooShop.CustomerJourney.abpmdl"
+    },
+    "MyTattooShop.TattooJourney": {
+      "path": "modules/MyTattooShop.TattooJourney/MyTattooShop.TattooJourney.abpmdl"
+    },
+    "MyTattooShop.Instagram": {
+      "path": "toolkit/MyTattooShop.Instagram/MyTattooShop.Instagram.abpmdl"
+    },
+    "MyTattooShop.WhatsApp": {
+      "path": "toolkit/MyTattooShop.WhatsApp/MyTattooShop.WhatsApp.abpmdl"
+    },
+    "MyTattooShop.TikTok": {
+      "path": "toolkit/MyTattooShop.TikTok/MyTattooShop.TikTok.abpmdl"
+    },
+    "MyTattooShop.SocialEngagement": {
+      "path": "modules/MyTattooShop.SocialEngagement/MyTattooShop.SocialEngagement.abpmdl"
+    },
+    "MyTattooShop.Storage": {
+      "path": "toolkit/MyTattooShop.Storage/MyTattooShop.Storage.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": []
+    }
+  },
+  "creatingStudioConfiguration": {
+    "template": "app",
+    "createdAbpStudioVersion": "3.1.5",
+    "creationTool": "ABP Studio CLI",
+    "tiered": "false",
+    "runInstallLibs": "",
+    "useLocalReferences": "false",
+    "multiTenancy": "true",
+    "includeTests": "true",
+    "kubernetesConfiguration": "false",
+    "uiFramework": "angular",
+    "mobileFramework": "none",
+    "distributedEventBus": "none",
+    "databaseProvider": "ef",
+    "runDbMigrator": "",
+    "databaseManagementSystem": "sqlite",
+    "separateTenantSchema": "false",
+    "createInitialMigration": "",
+    "theme": "leptonx-lite",
+    "themeStyle": "",
+    "themeMenuPlacement": "",
+    "progressiveWebApp": "false",
+    "runProgressiveWebAppSupport": "false",
+    "publicWebsite": "false",
+    "socialLogin": "true",
+    "sampleCrudPage": "false",
+    "selectedLanguages": [
+      "English",
+      "Arabic",
+      "Chinese (Simplified)",
+      "Chinese (Traditional)",
+      "Czech",
+      "English (UK)",
+      "Finnish",
+      "French",
+      "German (Germany)",
+      "Hindi ",
+      "Hungarian",
+      "Icelandic",
+      "Italian",
+      "Korean",
+      "Portuguese (Brazil)",
+      "Romanian (Romania)",
+      "Russian",
+      "Slovak",
+      "Spanish",
+      "Swedish",
+      "Turkish"
+    ],
+    "defaultLanguage": "English",
+    "createCommand": "abp new MyTattooShop -t app --ui-framework angular --database-provider ef --database-management-system sqlite --theme leptonx-lite --skip-migration  --skip-migrator  --without-cms-kit --dont-run-install-libs --dont-run-bundling -no-file-management -no-text-template-management"
+  }
+}

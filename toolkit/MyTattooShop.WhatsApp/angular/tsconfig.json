@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/whats-app": ["./projects/whats-app/src/public-api.ts"],
+      "@my-tattoo-shop/whats-app/config": [
+        "./projects/whats-app/config/src/public-api.ts"
+      ]
+    }
+  }
+}

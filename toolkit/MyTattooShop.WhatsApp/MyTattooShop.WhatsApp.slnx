@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/MyTattooShop.WhatsApp.Domain.Shared/MyTattooShop.WhatsApp.Domain.Shared.csproj" />
+        <Project Path="src/MyTattooShop.WhatsApp.Domain/MyTattooShop.WhatsApp.Domain.csproj" />
+        <Project Path="src/MyTattooShop.WhatsApp.Application.Contracts/MyTattooShop.WhatsApp.Application.Contracts.csproj" />
+        <Project Path="src/MyTattooShop.WhatsApp.Application/MyTattooShop.WhatsApp.Application.csproj" />
+        <Project Path="src/MyTattooShop.WhatsApp.EntityFrameworkCore/MyTattooShop.WhatsApp.EntityFrameworkCore.csproj" />
+        <Project Path="src/MyTattooShop.WhatsApp.HttpApi/MyTattooShop.WhatsApp.HttpApi.csproj" />
+        <Project Path="src/MyTattooShop.WhatsApp.HttpApi.Client/MyTattooShop.WhatsApp.HttpApi.Client.csproj" />
+        <Project Path="src/MyTattooShop.WhatsApp.Installer/MyTattooShop.WhatsApp.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/MyTattooShop.WhatsApp.TestBase/MyTattooShop.WhatsApp.TestBase.csproj" />
+        <Project Path="test/MyTattooShop.WhatsApp.EntityFrameworkCore.Tests/MyTattooShop.WhatsApp.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MyTattooShop.WhatsApp.Domain.Tests/MyTattooShop.WhatsApp.Domain.Tests.csproj" />
+        <Project Path="test/MyTattooShop.WhatsApp.Application.Tests/MyTattooShop.WhatsApp.Application.Tests.csproj" />
+    </Folder>
+</Solution>

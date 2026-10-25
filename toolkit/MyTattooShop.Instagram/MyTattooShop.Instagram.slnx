@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+
+    <Folder Name="/src/">
+        <Project Path="src/MyTattooShop.Instagram.Domain.Shared/MyTattooShop.Instagram.Domain.Shared.csproj" />
+        <Project Path="src/MyTattooShop.Instagram.Domain/MyTattooShop.Instagram.Domain.csproj" />
+        <Project Path="src/MyTattooShop.Instagram.Application.Contracts/MyTattooShop.Instagram.Application.Contracts.csproj" />
+        <Project Path="src/MyTattooShop.Instagram.Application/MyTattooShop.Instagram.Application.csproj" />
+        <Project Path="src/MyTattooShop.Instagram.EntityFrameworkCore/MyTattooShop.Instagram.EntityFrameworkCore.csproj" />
+        <Project Path="src/MyTattooShop.Instagram.HttpApi/MyTattooShop.Instagram.HttpApi.csproj" />
+        <Project Path="src/MyTattooShop.Instagram.HttpApi.Client/MyTattooShop.Instagram.HttpApi.Client.csproj" />
+        <Project Path="src/MyTattooShop.Instagram.Installer/MyTattooShop.Instagram.Installer.csproj" />
+    </Folder>
+    
+    <Folder Name="/test/">
+        <Project Path="test/MyTattooShop.Instagram.TestBase/MyTattooShop.Instagram.TestBase.csproj" />
+        <Project Path="test/MyTattooShop.Instagram.EntityFrameworkCore.Tests/MyTattooShop.Instagram.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MyTattooShop.Instagram.Domain.Tests/MyTattooShop.Instagram.Domain.Tests.csproj" />
+        <Project Path="test/MyTattooShop.Instagram.Application.Tests/MyTattooShop.Instagram.Application.Tests.csproj" />
+    </Folder>
+</Solution>

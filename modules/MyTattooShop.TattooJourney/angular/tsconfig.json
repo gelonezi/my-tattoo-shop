@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@my-tattoo-shop/tattoo-journey": ["./projects/tattoo-journey/src/public-api.ts"],
+      "@my-tattoo-shop/tattoo-journey/config": [
+        "./projects/tattoo-journey/config/src/public-api.ts"
+      ]
+    }
+  }
+}
